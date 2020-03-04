@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+
+.App {
+  padding: 50px 0px;
+  background-color: black;
+  min-height: 90vh;
+  font-family: 'Roboto Slab', serif;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 0px;
+  background-color: #5E5E5E;
+}
+
+.logos {
+  box-shadow: 4px 6px 5px 1px rgba(0,0,0,0.52);
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 27px;
+}
+
+.render-page {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-input {
+  align-self: center;
+}
+
+.subtitle {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 43px;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+}
+
+.loading {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, 400%);
+ 
+}
+
+.input-box{
+  font-size: 15px;
+    padding: 3px;
+    margin-right: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    border-radius: 2px;
+    border-style: none;
+}
+
+input:focus {
+  outline: 0
+}
+
+.submit-btn {
+  font-size: 15px;
+  padding: 3px 4px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+ul > li {
+  list-style-type: none;
+}
+
+li > span {
+  font-weight: bold;
+}
+
+.hero-title {
+  text-align: center;
+  font-size: 40px;
+}
+
+.main-content {
+  margin: 80px 200px;
+  padding: 20px 0px 40px;
+  background-color: #ffffffe0;
+    border-radius: 5px;
+    box-shadow: rgba(158, 158, 158, 0.48) 4px 4px 3
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero-image {
+  height: 400px;
+  width: auto;
+  border-radius: 3px;
+}
