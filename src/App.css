@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
 
-
 .App {
-  padding: 50px 0px;
+  padding: 50px 0px 10px;
   background-color: black;
   min-height: 90vh;
   font-family: 'Roboto Slab', serif;
@@ -18,6 +17,15 @@
 
 .logos {
   box-shadow: 4px 6px 5px 1px rgba(0,0,0,0.52);
+}
+
+#dc-logo{
+  width: 140px;
+}
+
+#marvel-logo {
+  align-self: "center";
+   width:180px;
 }
 
 .title {
@@ -101,7 +109,7 @@ li > span {
   padding: 20px 0px 40px;
   background-color: #ffffffe0;
     border-radius: 5px;
-    box-shadow: rgba(158, 158, 158, 0.48) 4px 4px 3
+    box-shadow: rgba(158, 158, 158, 0.48) 4px 4px 3px
 }
 
 .content {
@@ -113,4 +121,96 @@ li > span {
   height: 400px;
   width: auto;
   border-radius: 3px;
+}
+
+@media only screen and (max-width: 760px){
+  #dc-logo {
+    width: 80px;
+  }
+
+  #marvel-logo {
+    width: 130px;
+  }
+
+  .title{
+    font-size: 20px;
+  }
+
+  .subtitle{
+    font-size: 20px;
+  }
+
+  .input-box, .submit-btn {
+    font-size: 13px;
+  }
+
+  .main-content {
+    margin: 80px 15px;
+  }
+
+  .hero-title {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  li {
+    font-size: 13px;
+  }
+
+  .hero-image {
+    height: 280px;
+  }
+}
+
+@media screen and (min-width: 340px) and (max-width: 600px){
+  .heading{
+    padding: 5px 10px;
+  }
+  #dc-logo {
+    width: 55px;
+  }
+  #marvel-logo {
+    width: 102px;
+  }
+  .title {
+    font-size: 9px;
+  }
+  .subtitle {
+    font-size: 13px;
+  }
+  .input-box, .submit-btn {
+    font-size: 12px;
+  }
+  .loading {
+    top: 20%;
+  }
+  .main-content{
+    margin: 50px 15px;
+    padding: 10px 0px 20px;
+  }
+  .hero-title {
+    font-size: 18px;
+  }
+  .content{
+    flex-direction: column;
+    padding: 0px 20px;
+  }
+  .list-hero {
+    text-align: center;
+}
+  h3 {
+    font-size: 15px;
+  }
+  .hero-image{
+    height: 265px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .App{
+    display: none;
+  }
 }

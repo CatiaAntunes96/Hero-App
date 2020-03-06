@@ -75,7 +75,6 @@ const HeroesList = () => {
             ) : (
                 <div>
                 {heroesList.map(hero =>(
-                    
                     <Hero 
                     key={hero.id}
                     title={hero.name}

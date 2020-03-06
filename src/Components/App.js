@@ -6,16 +6,17 @@ import marvel from "../Img/marvel-logo.png"
 import '../App.css';
 
 function App() {
-
+  
 
   return (
+    
     <div className="App">
       <div className="heading">
-        <img src={DC} alt="dc-logo" className="logos" style={{width: 140}}></img>
+        <img src={DC} alt="dc-logo" className="logos" id="dc-logo"></img>
         <div className="title">
         <h1>Heroes Library</h1>
         </div>
-        <img src={marvel} alt="marvel-logo" style={{alignSelf: "center", width:180}} className="logos"></img>
+        <img src={marvel} alt="marvel-logo"  className="logos" id="marvel-logo"></img>
       </div>
      
      <HeroesList />

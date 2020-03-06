@@ -2,6 +2,8 @@ import React from "react";
 
 const Hero = ({title, power, name, appearance , image}) => {
     
+   
+
     return(
         <div className="main-content">
         <h1 className="hero-title">{title}</h1>
@@ -10,7 +12,7 @@ const Hero = ({title, power, name, appearance , image}) => {
         <h3 style={{textTransform: "uppercase"}}>Biography</h3>
         <ul> 
         <li><span>Name: </span>{name["full-name"]}</li>
-        <li><span>Gender:</span> {appearance.gender}</li>
+        <li><span>Gender:</span> {appearance.gender}}</li>
         <li><span>Race:</span> {appearance.race}</li>
         </ul>
         <h3 style={{textTransform: "uppercase"}}>PowerStats</h3>
