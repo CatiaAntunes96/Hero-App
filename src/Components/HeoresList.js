@@ -69,7 +69,7 @@ const HeroesList = () => {
         {loading ? (
             <div>
             
-            <Loader type="ThreeDots" color="white" height="60" width="90" className="loading"/>
+            <Loader type="ThreeDots" color="white" height={60} width={90} className="loading"/>
             </div>
             
             ) : (
